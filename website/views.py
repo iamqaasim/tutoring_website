@@ -1,5 +1,6 @@
 # Blueprint is used to sort our routes
-from flask import Blueprint
+# Render_template is used to render the html pages
+from flask import Blueprint, render_template
 
 views = Blueprint('views',__name__)
 
@@ -8,4 +9,4 @@ views = Blueprint('views',__name__)
 # Create Home route
 @views.route('/')
 def home():
-  return "<h1>test</h1>"
+  return render_template("home.html")
