@@ -1,6 +1,6 @@
 # tutoring_website
 
-I created this MVP (Minimum Viable Product) website for my ALX research project. I tried to document as much of my source code as possible. Changes will be made
+I created this MVP (Minimum Viable Product) website for my final ALX Research project. I tried to document as much of my source code as possible. Improvements will be made in the future 
 
 [PowerPoint Presentation:](https://docs.google.com/presentation/d/1MRoBLIfZLWrbG_YY0I82xLG-lnYe8997tJjot83e0FM/edit?usp=sharing) Some infomation on the creation process of the project
 <br>
