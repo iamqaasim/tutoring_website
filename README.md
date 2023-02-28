@@ -2,7 +2,7 @@
 
 I created this MVP (Minimum Viable Product) website for my ALX research project. I tried to document as much of my source code as possible. Changes will be made
 
-[PowerPoint Presentation](https://docs.google.com/presentation/d/1MRoBLIfZLWrbG_YY0I82xLG-lnYe8997tJjot83e0FM/edit?usp=sharing)
+[PowerPoint Presentation:](https://docs.google.com/presentation/d/1MRoBLIfZLWrbG_YY0I82xLG-lnYe8997tJjot83e0FM/edit?usp=sharing) Some infomation on the creation process of the project
 <br>
 [Website](https://iq-tutoring-2brc.onrender.com/) This was done using Flask, a Python framework, as the backend and HTML & CSS with a bootstrap framwork for the frontend
 <br>
