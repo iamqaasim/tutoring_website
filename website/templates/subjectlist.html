@@ -1,0 +1,13 @@
+<div class="border border-primary p-2 mb-2 border-opacity-25 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+  <div class="d-flex flex-row justify-content-between">
+    <div class="">
+      <h4> {{subject['Title']}} </h4>
+      <div> <b> Location: </b> {{subject['Location']}} </div>
+      <div> <b> Rate: </b> {{subject['Rate']}} </div>
+    </div>
+    <div class="align-self-center">
+      <a href="mailto:iamqaasim@gmail.com?subject={{subject['Title']}}%20Inquiries%20&body=Hi%20my%20name%20is%20%3Cyour%20name%20here%3E%20I'm%20a%20%3Cspecify%20type%20of%20student%20(High%20school%2C%20University%2C..)%3E%20student.%0D%0A%0D%0AI%20am%20emailing%20to%20inquire%20about%20your%20{{subject['Title']}}%20tutoring%20service%0D%0A%0D%0A%3Cstate%20inquiries%3E" type="button" class="btn btn-outline-primary"> Inquiries </a>
+    </div>
+  </div>
+</div>
+

@@ -1,8 +1,31 @@
+<!-- This page is inheriting everything from the base template -->
 {% extends "base.html" %}
-<!This page is inheriting everything from the base template>
-<!This block tag is overriding the title block tag from the base template>
+
+<!-- This block tag is overriding the title block tag from the base template -->
 {% block title %} Home {% endblock %}
 
-<!This block tag is overriding the content block tag from the base template>
+{% block banner %} <img id="banner" src="https://web-development.iamqaasim.repl.co/static/banner.jpg" class="img-fluid" style="height: 450px; width: 100%; object-fit: cover"> {% endblock %}
+
+<!-- This block tag is overriding the content block tag from the base template -->
 {% block content%}
+    <div>
+      <h1 class="text-center mt-2 mb-2"> Services </h1>
+      <div class="d-flex flex-row justify-content-between">
+        <div class="col-md-5 align-self-center">
+        <p> We offer top-quality, one-on-one tutoring services for students struggling with Science or Engineering-related subjects. With our personalized approach, we work with you to identify your specific needs and learning style, and tailor our tutoring sessions accordingly. We provide a comfortable and supportive environment that enables you to ask questions, develop a deeper understanding of the subject matter, and build the skills you need to achieve your academic goals.
+        </p>
+        </div>
+        <div class="d-none d-md-block float-start">
+        <img src="/static/inaction.jpg" class="img-fluid" style="height:320px";>
+        </div>
+      </div>
+      <div>
+        <h1 class="text-center mt-2 mb-2"> Core Fields </h1>
+        <div> 
+          {% for subject in subjects %}
+            {%include 'subjectlist.html' %}
+          {% endfor%}
+        </div>
+      </div>
+    </div>
 {% endblock %}
