@@ -6,6 +6,6 @@ I created this MVP (Minimum Viable Product) website for my final ALX Research pr
 <br>
 [Website](https://iq-tutoring-2brc.onrender.com/) This was done using Flask, a Python framework, as the backend and HTML & CSS with a bootstrap framwork for the frontend
 <br>
-[Landing Page:](https://iq-tutoring-2brc.onrender.com/) This was done using site123
+[Landing Page:](https://63f9223a603b2.site123.me/) This was done using site123
 <br>
-[Final Product site:](https://iq-tutoring-2brc.onrender.com/) This is how I want my website to look and function. This was also done using site123
+[Final Product site:](https://63f93410ac0a7.site123.me/) This is how I want my website to look and function. This was also done using site123
