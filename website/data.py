@@ -26,7 +26,7 @@ subjects = [
   }
 ]
 
-high_school = [
+high_school_ = [
   {
     'id': 1, # Change
     'Level': 'High_school',
@@ -38,7 +38,15 @@ high_school = [
   {
     'id': 2, # Change
     'Level': 'High_school',
-    'Title': 'Mathematics',
+    'Title': 'Physics',
+    'Location': 'online',
+    'Description': 'Cover the basic fundamentals',
+    'Rate': 'R180'
+  },
+  {
+    'id': 3, # Change
+    'Level': 'High_school',
+    'Title': 'Math Lit',
     'Location': 'online',
     'Description': 'Cover the basic fundamentals',
     'Rate': 'R180'
@@ -234,6 +242,75 @@ university_three = [
     'Year': '3rd',
     'Field': 'Stats',
     'Title': 'Advanced Inference and Linear modeling',
+    'Location': 'online',
+    'Description 1': 'Cover the basic fundamentals',
+    'Description 2': 'Cover the basic fundamentals',
+    'Rate': 'R250'
+  }
+]
+
+programing_ = [
+  {
+    'id': 1, # Change
+    'Level': 'programing',
+    'Year': '2nd',
+    'Field': 'Languages',
+    'Title': 'Python',
+    'Location': 'online',
+    'Description 1': 'Cover the basic fundamentals',
+    'Description 2': 'Cover the basic fundamentals',
+    'Rate': 'R250'
+  },
+  {
+    'id': 2, # Change
+    'Level': 'Programing',
+    'Year': '2nd',
+    'Field': 'Languages',
+    'Title': 'JS',
+    'Location': 'online',
+    'Description 1': 'Cover the basic fundamentals',
+    'Description 2': 'Cover the basic fundamentals',
+    'Rate': 'R250'
+  },
+  {
+    'id': 3, # Change
+    'Level': 'Programing',
+    'Year': '2nd',
+    'Field': 'Languages',
+    'Title': 'C/C#',
+    'Location': 'online',
+    'Description 1': 'Cover the basic fundamentals',
+    'Description 2': 'Cover the basic fundamentals',
+    'Rate': 'R250'
+  },
+  {
+    'id': 4, # Change
+    'Level': 'Programing',
+    'Year': '2nd',
+    'Field': 'Languages',
+    'Title': 'HTML & CSS',
+    'Location': 'online',
+    'Description 1': 'Cover the basic fundamentals',
+    'Description 2': 'Cover the basic fundamentals',
+    'Rate': 'R250'
+  },
+  {
+    'id': 5, # Change
+    'Level': 'Programing',
+    'Year': '2nd',
+    'Field': 'Languages',
+    'Title': 'SQL',
+    'Location': 'online',
+    'Description 1': 'Cover the basic fundamentals',
+    'Description 2': 'Cover the basic fundamentals',
+    'Rate': 'R250'
+  },
+  {
+    'id': 6, # Change
+    'Level': 'Programing',
+    'Year': '2nd',
+    'Field': 'Operating Systems',
+    'Title': 'Linux OS',
     'Location': 'online',
     'Description 1': 'Cover the basic fundamentals',
     'Description 2': 'Cover the basic fundamentals',

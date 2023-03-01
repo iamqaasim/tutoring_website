@@ -1,0 +1,17 @@
+<!-- This page is inheriting everything from the base template -->
+{% extends "base.html" %}
+
+<!-- This block tag is overriding the title block tag from the base template -->
+{% block title %} Programs {% endblock %}
+
+<!-- This block tag is overriding the content block tag from the base template -->
+{% block content%}
+    <div>
+        <h1 class="text-center mt-2 mb-2"> {{heading}} </h1>
+        <div> 
+          {% for subject in subjects %}
+            {%include 'subjectlist.html' %}
+          {% endfor%}
+        </div>
+      </div>
+{% endblock %}
