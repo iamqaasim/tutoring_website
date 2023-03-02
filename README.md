@@ -1,10 +1,10 @@
 # Tutoring Website
 
-The tutoring website provides a 3rd party platform where students can receive personalized academic assistance from experienced and knowledgeable tutors. 
-
 The website is user-friendly and easy to navigate, with an intuitive interface that allows students to select subjects and scheduale a sessions with available tutors. 
 
 Students can book individual sessions or opt for packages that provide regular, ongoing support. 
+
+The website provides a 3rd party platform where students can receive personalized academic assistance from experienced and knowledgeable tutors. 
 
 Overall, the tutoring website provides a convenient and effective way for students to receive the guidance and support they need to achieve academic success.
 
